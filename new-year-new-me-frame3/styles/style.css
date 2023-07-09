@@ -37,7 +37,7 @@ img {
 }
 
 .topright .banner-heading {
-    color: #151414;
+    color: #ffffff;
     text-align: right;
     font-size: 60px;
     font-style: normal;
@@ -46,7 +46,7 @@ img {
 }
 
 .banner-description {
-    color: #444343;
+    color: #ffffff;
     text-align: right;
     font-size: 16px;
     font-style: normal;
@@ -55,14 +55,14 @@ img {
 }
 
 .bnr-btn {
-    color: #FFF;
+    color: #005FAC;
     text-align: center;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     border-radius: 5px;
-    background: #F15B22;
+    background: #ffffff;
     width: 160px;
     height: 64px;
     flex-shrink: 0;
@@ -75,8 +75,8 @@ img {
     fill: #D9D9D9;
 
    
-    background: rgba(241, 91, 34, 0.20);
-    border-radius: 50%;
+    /* background: rgba(241, 91, 34, 0.20);
+    border-radius: 50%; */
     margin-top: 110px;
     margin-left: 130px;
 }
@@ -122,7 +122,7 @@ img {
 .prev-content {
     margin-right: 150px;
     padding-left: 80px;
-    margin-top: 370px;
+    margin-top: 250px;
     padding-right: 30px;
 }
 
@@ -215,7 +215,7 @@ img {
     flex-shrink: 0;
     border-radius: 5px;
     background: #FFF;
-    color: #F15B22;
+    color: #005FAC;
     text-align: center;
     font-size: 20px;
     font-style: normal;
@@ -312,6 +312,11 @@ input {
     font-weight: 400;
     line-height: normal;
     padding-left: 10px;
+    
+}
+input[type="text"]{
+    background-color: transparent;
+    border: 1px solid white;
 }
 
 .subscribe-btn {
@@ -321,9 +326,9 @@ input {
     flex-shrink: 0;
     border-radius: 8px;
     background: #FFF;
-    background: #FFF;
+    background: #005FAC;
 
-    color: #F15B22;
+    color: #ffffff;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
